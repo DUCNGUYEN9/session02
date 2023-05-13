@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Liên hệ</h1>
+    <form action="#" method="post">
+      <label for="name">Họ và tên:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required /><br />
+
+      <label for="phone">Số điện thoại:</label>
+      <input type="text" id="phone" name="phone" required /><br />
+
+      <label for="subject">Chủ đề:</label>
+      <select name="subject" id="subject">
+        <option value="general">Tổng quan</option>
+        <option value="sales">Bán hàng</option>
+        <option value="support">Hỗ trợ</option>
+        <option value="partnership">Đối tác</option></select
+      ><br />
+
+      <label for="message">Nội dung:</label>
+      <textarea name="message" id="message" rows="5" required></textarea><br />
+
+      <input type="checkbox" id="newsletter" name="newsletter" value="yes" />
+      <label for="newsletter">Nhận thông tin từ chúng tôi</label><br />
+      <input type="submit" value="Gửi" />
+    </form>
+  </body>
+</html>
